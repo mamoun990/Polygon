@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polygon Engineering Works LLC - Engineering Excellence Since 2006</title>
+    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+  <script src="./css/bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="icon" type="image/svg+xml" href="/vite.svg">
+  <link href="./css/feather.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body class="body">
+  
+  <div class="div1">
+    <nav class="navbar navbar-expand-lg navbar-light navBar-secondary fixed-top navbar-transition navbar-hidden" id="navbar2">
+          
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#" class="navbar__link"><i class="feather-home"></i><span>Home</span></a>
+        </li>
+        <li class="navbar__item">
+          <a href="#AboutUs" class="navbar__link"><i class="feather-star"></i><span>About</span></a>        
+        </li>
+        <li class="navbar__item">
+          <a href="#Project`s" class="navbar__link"><i class="feather-folder"></i><span>Projects</span></a>        
+        </li>
+        <li class="navbar__item">
+          <a href="#Contact" class="navbar__link"><i class="feather-voicemail"></i><span>contact </span></a>        
+        </li>
+       
+      </ul>
+    </nav>
+   
+      
+    <nav class=" navbar navbar-expand-lg navbar-light  fixed-top navBar-primary shadow navbar-transition navbar-show" id="navbar1">
+      <div class="container-fluid   ">
+        <div class="logo ">
+          <i class="fas fa-hammer svg"></i>
+          <div style="display: inline; ">
+            <a class="navbar-brand " style="font-size: x-large;" href="#">Polygon Engineering</a>
+            <span style="color: rgb(175, 172, 172); font-size: small;">Works LLC</span>
+          </div>
+        </div>
+        <button class="navbar-toggler but1 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse  "id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-center   text-md-danger  ">
+            
+              <li class="nav-item ">
+                <a class="nav-link text-md-danger " href="#AboutUs">About US</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-md-danger " href="#Project`s">Project`s</a></li>
+              </li> 
+              <li class="nav-item e">
+                <a class="nav-link text-md-danger text-white" href="#Contact"> Contact US</a></li>                 
+            <div > 
+            </div>                  
+          </ul>                
+        </div>              
+      </div>
+    </nav>
+    <div class="div2" id="Polygon">
+      <h1>P <span>ain</span></h1>
+      <h1>O<span>nly</span></h1>
+      <h1>L<span>eands</span></h1>
+      <h1>Y<span>ou</span></h1>
+      <h1>G<span>rind</span></h1>
+      <h1>O<span>vercomes</span></h1>
+      <h1>N<span>eglect</span></h1>
+    </div>
+    <script>
+      const navbar1 =document.getElementById('navbar1');
+      const navbar2 =document.getElementById('navbar2');
+      const Polygon = document.getElementById('Polygon');
+      function handleNavbars(){
+        const isSmallScreen = window.innerWidth < 768;
+        const isScrolled = window.scrollY > 100;
+        
+        navbar1.classList.add('navbar-transition');
+        navbar2.classList.add('navbar-transition');
+
+        if (isScrolled){
+          if(isSmallScreen){
+            navbar1.classList.remove('navbar-hidden');
+            navbar1.classList.add('navbar-show','navBar-primary');
+            navbar1.style.backgroundColor="#6666669b";
+            
+            navbar2.classList.remove('navbar-show','navBar-secondary');
+            navbar2.classList.add('navbar-hidden');
+            
+            Polygon.classList.add('d-none');
+          } else{
+            navbar1.classList.remove('navbar-show','navBar-primary');
+            navbar1.classList.add('navbar-hidden');
+
+            navbar2.classList.remove('navbar-hidden');
+            navbar2.classList.add('navbar-show','navBar-secondary');
+
+            Polygon.classList.add('d-none');
+          }
+        }else{
+            navbar1.classList.remove('navbar-hidden');
+            navbar1.classList.add('navbar-show','navBar-primary');
+            navbar1.style.backgroundColor="#bdbbbb00";
+
+            navbar2.classList.remove('navbar-show','navBar-secondary');
+            navbar2.classList.add('navbar-hidden');
+
+            Polygon.classList.remove('d-none');
+        }
+      }
+
+      window.addEventListener('scroll',handleNavbars);
+      window.addEventListener('resize' ,handleNavbars);
+      window.addEventListener('load',handleNavbars);
+
+      feather.replace()
+    </script>
+    
+    </div>
+    <div class="div3 ">
+      <div>
+        <div style="padding: 0 7rem;">  
+          <div class=" trusted  py-2  text-white">
+            <span class="spinner-grow spinner-grow-sm "></span>Trusted Since 2006
+          </div>
+        </div>
+          <span class="Polygon_Engineering">Polygon Engineering Works</span>
+        <span class="block text-2xl md:text-4xl lg:text-5xl text-orange-600 mt-2 span1">Forging the Future of the UAE</span>
+        <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">Expertise in Engineering, Fit-Out, and Civil Works Built on a Legacy of Trust</p>
+       
+        <div class="div6">
+          <button class="Explore">Explore Our Work </button>
+          <button class="Quote ">Get a Quote </button>
+        </div>
+        <div class="div4">
+          <div class="div5">
+            <span class="block span1">18+</span>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">Years of Excellence</p>
+          </div>
+
+          <div class="div5 p-lg-5">
+            <span class="block span1">500+</span>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">Projects Completed</p>
+          </div>
+
+          <div class="div5">
+            <span class="block text-orange-600 span1">100%</span>
+            <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">Client Stisfact</p>
+          </div>
+        </div>
+       
+    </div>
+    </div>
+    <div class="div7">
+      <div class="about1" >
+        <section id="AboutUs"><p>Nearly Two Decades of Engineering Excellence</p></section>
+      </div>
+     
+      <div class="about2">
+        <div class="div8">
+          <p> Since our founding in Abu Dhabi in 2006, Polygon Engineering Works LLC has established itself as a cornerstone of the UAE's construction and engineering landscape. Our journey spans nearly two decades of unwavering commitment to excellence, innovation, and client satisfaction.</p> <br>
+          <p>We pride ourselves on our authentic approach to engineering challenges, combining time-tested methodologies with cutting-edge solutions. Our rich history is built on trust, reliability, and an intimate understanding of the unique demands of the Emirates' rapidly evolving infrastructure.</p><br>
+          <p>From our headquarters in Abu Dhabi, we continue to shape the future of engineering in the region, delivering customized solutions that exceed expectations and stand the test of time.</p>
+          <div style="display: block;">
+            <div class="div10" >
+              <h3>2006</h3>
+              <p>Year Established</p>
+            </div >
+            <div class="div10" style=" background-color: rgba(244, 165, 96, 0.27); ">
+              <h3>UAE</h3>
+              <p>Mark Focus</p>
+            </div>
+          </div>
+        </div>
+        <div class="div9">
+         
+              <div class="cardes1">
+                <div class="card1">
+                      <div >
+                        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award svg"><circle cx="12" cy="8" r="6"></circle><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path></svg>
+                      </div>
+                      <h4 class=" ">
+                          Proven Excellence
+                      </h4>
+                      <p >
+                          Nearly two decades of delivering exceptional engineering solutions across the UAE
+                      </p>
+                </div>
+             
+
+              
+                      <div class="card1 card2">
+                          <div >
+                            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users  svg"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                          </div>
+                          <h4 class="py-2">
+                              Expert Team
+                          </h4>
+                          <p >
+                            Skilled professionals with deep understanding of local market requirements
+                          </p>
+                      </div>
+              
+
+              
+                    <div class="card1">
+                        <div >
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin svg"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <h4 class="py-2">
+                          Abu Dhabi Roots
+                        </h4>
+                        <p >
+                          Established in 2006 with strong local presence and regional expertise
+                        </p>
+                    </div>
+              
+
+              
+                      <div class="card1">
+                            <div >
+                                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench svg"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                            </div>
+                            <h4 class=" py-2">
+                              Custom Solutions
+                            </h4>
+                            <p >
+                              Tailored engineering approaches that meet unique project specificatio
+                            </p>
+                      </div>
+              </div>
+           </div>
+      
+    </div>
+    </div>
+
+    <div class="Polygon1">
+      <h1>P O L Y G O N</h1>
+    </div>
+
+    <div class="cardes2">
+      <div class="about1" >
+        <section id="Project`s"><p>Nearly Two Decades of Engineering Excellence</p></section>
+      </div>
+      <p class="p1">Showcasing our diverse portfolio of successful projects that demonstrate our expertise and commitment to excellence</p>
+      <div class="controls">
+        <button onclick="filterElements('all')">All Project</button>
+        <button onclick="filterElements('Engineering')">Engineering</button>
+        <button onclick="filterElements('Fit-Out')">Fit-Out</button>
+        <button onclick="filterElements('Civil-Works')">Civil Works</button>
+
+      </div>
+      <div class="card3 item Engineering " >
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Abu Dhabi Commercial Complex</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text">A landmark 25-story commercial complex featuring innovative structural design and sustainable engineering solutions.</p>
+          <a href="">Engineering Contracting</a> 
+          <a href="">Civil Engineering</a>
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <div class="card3 item Engineering" >
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Luxury Hotel Fit-Out</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text">Premium interior fit-out for a 5-star hotel featuring bespoke design elements and state-of-the-art facilities.</p>
+          <a href="">Fit-Out Contracting</a> 
+          <a href="">Customized Works</a>
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <div class="card3 item Engineering" >
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Infrastructure Development</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text"> Comprehensive infrastructure development including roads, utilities, and site preparation for a major residential project</p>
+          <a href="">Civil Engineering</a> 
+          <a href="">Engineering Contracting</a>
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <div class="card3 item Civil-Works">
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Industrial Facility Upgrade</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text">Complete modernization of industrial manufacturing facility with custom  solutions for enhanced efficiency</p>
+          <a href="">Customized Engineering Works</a> 
+          <a href="">Engineering Contracting  </a>
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <div class="card3 item Civil-Works">
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Residential Complex Interiors</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text">Elegant interior design and fit-out for a luxury residential complex with focus on modern aesthetics and functionality.</p>
+          <a href="">Fit-Out Contracting</a> 
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <div class="card3 item Fit-Out">
+        <img src="./photo1.jpg" class="card-img-top" alt="jpg">
+        <div class="card-body">
+          <div class="date1 text-white">
+            <span>2023</span>
+          </div>
+          <div class="date2 text-white">
+            <span>Featured</span>
+          </div>
+          <h5 class="card-title">Bridge Construction Project</h5>
+          <div class="flex items-center " style="font-size: small; text-align: left; color: rgb(43, 42, 42);">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            Abu Dhabi
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+            2023
+          </div>
+          <p class="card-text"> Design and construction of a major bridge infrastructure project connecting key transportation corridors.</p>
+          <a href="">Civil Engineering</a>
+          <a href="">Engineering Contracting</a> 
+          <button>View Project Details</button>
+        </div>
+      </div>
+      <script>
+        function filterElements(group){
+          const elements = document.querySelectorAll('.item');
+
+          elements.forEach(el => {
+            if(group === 'all' || el.classList.contains(group)){
+              el.style.display='inline-block';
+            } else{
+              el.style.display='none';
+            }
+          });
+        }
+        window.onload= () => {
+          filterElements('all');
+        };
+        window.addEventListener("resize",function(){
+          location.reload();
+        })
+      </script>
+    </div>
+
+   <div class="contactUs">
+    <div class="about1" >
+      <section id="Contact"><p>Partner With Us on Your Next Project</p></section>
+    </div>
+    
+    <p class="p1">Ready to transform your vision into reality? Get in touch with our expert team for a consultation and quote.</p>
+     
+
+    <div class="cardes3">
+      <div class="contact-container">
+        <div class="contant-info">
+          <h4>Get in Touch</h4>
+          <div class="info-box ">
+              <i class="fas fa-map"></i>
+              <div>
+                <strong>Our Location</strong>
+                <p>Abu Dhabi, United Arab Emirates <br> Serving the entire UAE region</p>
+              </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Call Us</strong>
+              <p>+971 XX XXX XXXX <br> Available 24/7 for emergencies</p>
+            </div>
+        </div>
+        <div class="info-box">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>Email Us</strong>
+            <p>info@polygonengworks.ae <br> projects@polygonengworks.ae</p>
+          </div>
+      </div>
+      <div class="info-box">
+        <i class="fas fa-clock"></i>
+        <div>
+          <strong>Business Hours</strong>
+          <p>Sunday - Thursday: 8:00 AM - 6:00 PM <br>Friday - Saturday: On-call support</p>
+        </div>
+    </div>
+  
+        </div>
+        <div class="why-us">
+          <h6>Why Choose Polygon Engineering?</h6>
+          <ul>
+            <li><i class="fas fa-check-circle"></i>18+ years of proven experience</li>
+            <li><i class="fas fa-check-circle"></i>500+ successful projects delivered</li>
+            <li><i class="fas fa-check-circle"></i>100% client satisfaction rate</li>
+            <li><i class="fas fa-check-circle"></i>Local expertise with global standards</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="contact-form">
+        <form id="contactForm">
+          <div class="from-group">
+            <div class="input1">
+              <p>Full Name *</p>
+            <input type="text" placeholder="Enter Your Full Name" required />
+            </div>
+            <div class="input1">
+              <p>Email Address *</p>
+              <input type="email" placeholder="Ener Your Email " required />
+            </div>
+          </div>
+          <div class="from-group">
+            <div class="input1">
+              <p>Phone Number</p>
+              <input type="tel" placeholder="+971 XX XXX XXXX" required />
+            </div>
+            <div class="input1">
+              <p>Company Name</p>
+              <input type="text" placeholder="Enter Your Company Name" required />
+            </div>
+          </div>
+          <div class="from-group">
+            <div class="Select">
+              <p>Select a service</p>
+              <select required>
+                <option >Select a service</option>
+                <option >Engineering Desing </option>
+                <option >Project Mangement</option>
+                <option >Custom Request</option>
+              </select>
+            </div>
+          </div>
+          <div class="from-group">
+           <div class="Details ">
+            <p>Project Details *</p>
+            <textarea placeholder="Enter Your Project Details " rows="5"></textarea>
+           </div>
+          </div>
+          <div class="but2">
+            <button type="submit"><i class="fas fa-peper-plane"></i> Send Massage & Get Quote</button>
+          </div>
+        </form>
+  
+      </div>
+    </div>
+    <script>
+      document.getElementById('contactform').addEventListener('submit',function(e){
+        e.preventDefault();
+        alert('yur massag has been sent! We will get to you soon .')
+      })
+    </script>
+   </div>
+   
+    <div class="map1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13444.687653189221!2d36.71860459024208!3d32.601601729795654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151a295ebf5b4add%3A0x25734af48aa7fadd!2z2LPZh9mI2Kkg2KfZhNiu2LbYsdiMINiz2YjYsdmK2Kc!5e0!3m2!1sar!2s!4v1751929044477!5m2!1sar!2s" class="map2"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <footer class="Footer1">
+      <div class="Footer2">
+
+        <div class="polygon-engineering">
+          <h3 ><i class="fas fa-hammer svg"></i> Polygon Engineering <br> <span>Work LLC</span></h3>
+          <p class="p2">
+            Since 2006, we've been forging the future of engineering in the UAE with innovative solutions, uncompromising quality, and a commitment to excellence that has earned the trust of clients across the Emirates.
+          </p>
+          <p class="p3">
+            <i class="fas fa-map-market-alt"></i>  Abu Dhabi, United Arab Emirates<br>
+            <i class="fas fa-phone"></i>  +971 XX XXX XXXX<br>
+            <i class="fas fa-envelope"></i>  info@polygonengworks.ae<br>
+            <i class="fas fa-clock"></i>  Sunday - Thursday: 8:00 AM - 6:00 PM
+          </p>
+        </div>
+        <div class="polygon-engineering">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#AboutUs">About US</a></li>
+            <li><a href="#Project`s">Projects</a></li>
+           
+          </ul>
+        </div>
+    
+        <div class="polygon-engineering">
+          <h4>Our Services</h4>
+          <ul>
+            <li>Engineering Contracting</li>
+            <li>Fit-Out Contracting</li>
+            <li>Civil Engineering</li>
+            <li>Customized Engineering Works</li>
+            <li>Project Consultation</li>
+            <li>Quality Assurance</li>
+          </ul>
+        </div>
+        <div class="Footer3">
+          <div class="f1">
+            © 2025 Polygon Engineering Works LLC &nbsp;.&nbsp; All rights reserved.
+          </div>
+          <div class="f1">
+            Established 2006 &nbsp;•&nbsp; UAE Licensed &nbsp;•&nbsp; ISO Certified
+          </div>
+          <div class="f1">
+            Building the Future of the UAE, One Project at a Time
+          </div>
+          <div class="Footer4">
+            <a href="https://facebook.come" target="_blank" >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.come" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.come" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://wa.me/971XXXXXXXXX" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
